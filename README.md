@@ -42,3 +42,72 @@ pip install -r [requirements.txt](http://_vscodecontentref_/1)
 
 # 4) Execute o app
 streamlit run [app.py](http://_vscodecontentref_/2)
+```
+
+---
+
+## 📁 Como criar uma pasta nova no projeto
+
+### Criando pastas via linha de comando
+
+Para criar uma nova pasta (diretório) no projeto, você pode usar o comando `mkdir`:
+
+```bash
+# Criar uma única pasta
+mkdir nome-da-pasta
+
+# Criar múltiplas pastas de uma vez
+mkdir pasta1 pasta2 pasta3
+
+# Criar uma estrutura de pastas aninhadas
+mkdir -p pasta-pai/pasta-filho/pasta-neto
+```
+
+### Estrutura de pastas sugerida
+
+O projeto já possui algumas pastas organizadas:
+
+```
+imersao-dados-python/
+├── data/          # Arquivos de dados (.csv, .json, etc)
+├── docs/          # Documentação adicional
+├── src/           # Módulos e código fonte adicional
+├── app.py         # Aplicação principal do Streamlit
+├── README.md      # Este arquivo
+└── requirements.txt
+```
+
+### Exemplos de organização
+
+Você pode criar pastas para organizar melhor seu projeto:
+
+```bash
+# Pasta para imagens e recursos visuais
+mkdir assets
+
+# Pasta para notebooks de análise
+mkdir notebooks
+
+# Pasta para testes
+mkdir tests
+
+# Pasta para scripts auxiliares
+mkdir scripts
+```
+
+### Nota sobre Git
+
+- Pastas vazias não são rastreadas pelo Git automaticamente
+- Para manter uma pasta vazia no repositório, adicione um arquivo `.gitkeep` dentro dela:
+  ```bash
+  mkdir minha-pasta
+  touch minha-pasta/.gitkeep
+  git add minha-pasta/.gitkeep
+  ```
+
+### Usando IDEs
+
+Se você estiver usando uma IDE como VS Code, PyCharm ou similar, também pode:
+1. Clicar com botão direito no explorador de arquivos
+2. Selecionar "Nova Pasta" ou "New Folder"
+3. Digite o nome da pasta e pressione Enter
