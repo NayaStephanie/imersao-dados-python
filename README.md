@@ -26,6 +26,8 @@ https://imersao-dados-python2026-alura.streamlit.app/
 
 ---
 ![Dashboard](printdashboard.png)
+
+---
 ![Dashboard](printfiltro.png)
 
 ## ▶️ Como rodar localmente
