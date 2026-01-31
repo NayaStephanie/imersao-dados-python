@@ -42,3 +42,7 @@ pip install -r [requirements.txt](http://_vscodecontentref_/1)
 
 # 4) Execute o app
 streamlit run [app.py](http://_vscodecontentref_/2)
+
+
+![Dashboard](assets/Captura de tela 2026-01-31 194139)
+![Filtros](assets/Captura de tela 2026-01-31 194309)
