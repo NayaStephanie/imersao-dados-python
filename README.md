@@ -44,4 +44,4 @@ pip install -r [requirements.txt](http://_vscodecontentref_/1)
 streamlit run [app.py](http://_vscodecontentref_/2)
 
 
-![Dashboard](printdashboard.png)
+![Dashboard](Rename assests/printdashboard.png)
