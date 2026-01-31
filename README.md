@@ -25,6 +25,7 @@ https://imersao-dados-python2026-alura.streamlit.app/
 - Plotly
 
 ---
+![Dashboard](printdashboard.png)
 
 ## ▶️ Como rodar localmente
 
@@ -43,5 +44,3 @@ pip install -r [requirements.txt](http://_vscodecontentref_/1)
 # 4) Execute o app
 streamlit run [app.py](http://_vscodecontentref_/2)
 
-
-![Dashboard](printdashboard.png)
